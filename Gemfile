@@ -9,11 +9,11 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 group :development do
 	gem 'rails3-generators'
-	gem "rspec", '>= 2.0.0.beta.19'
-	gem "rspec-rails", '>= 2.0.0.beta.19'
+	gem "rspec"
+	gem "rspec-rails"
 end
 
 group :test do
-	gem "rspec", '>= 2.0.0.beta.19'
+	gem "rspec"
 end
 
