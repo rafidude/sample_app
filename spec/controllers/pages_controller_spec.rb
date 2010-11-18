@@ -8,11 +8,6 @@ describe PagesController do
       get 'home'
       response.should be_success
     end
-    
-    it  "should have the right title" do
-      render
-      rendered.should contain("Ruby on Rails")
-    end
   end
 
   describe "GET 'contact'" do
