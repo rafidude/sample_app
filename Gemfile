@@ -11,10 +11,13 @@ group :development do
 	gem 'rails3-generators'
 	gem "rspec"
 	gem "rspec-rails"
+	gem 'autotest'
+	gem "spork"
 end
 
 group :test do
 	gem "rspec"
+	gem 'autotest'
 	gem "spork"
 end
 
