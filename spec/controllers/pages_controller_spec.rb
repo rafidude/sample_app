@@ -3,15 +3,15 @@ require 'spec_helper'
 describe PagesController do
   render_views
   
-  describe "GET 'home'" do
+  describe "pages/home.html.erb" do
     it "should be successful" do
       get 'home'
       response.should be_success
     end
     
     it  "should have the right title" do
-      get 'home'
-      rendered.should have_selector("title")
+      render
+      rendered.should contain("Ruby on Rails")
     end
   end
 
