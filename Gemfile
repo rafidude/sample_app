@@ -15,6 +15,7 @@ group :development do
 	gem "spork"
 	gem "annotate-models"
 	gem "webrat"
+	gem 'gravatar_image_tag'
 end
 
 group :test do
@@ -22,5 +23,7 @@ group :test do
 	gem 'autotest'
 	gem "spork"
 	gem "webrat"
+	gem "factory_girl_rails"
+	gem 'gravatar_image_tag'
 end
 
