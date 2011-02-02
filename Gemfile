@@ -1,11 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
-
 gem 'sqlite3-ruby', :require => 'sqlite3'
-
-# To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
-# gem 'ruby-debug19'
+gem 'gravatar_image_tag'
+gem 'will_paginate', "~> 3.0.pre2"
 
 group :development do
 	gem 'rails3-generators'
@@ -15,7 +13,7 @@ group :development do
 	gem "spork"
 	gem "annotate-models"
 	gem "webrat"
-	gem 'gravatar_image_tag'
+	gem 'faker'
 end
 
 group :test do
@@ -24,6 +22,5 @@ group :test do
 	gem "spork"
 	gem "webrat"
 	gem "factory_girl_rails"
-	gem 'gravatar_image_tag'
 end
 
